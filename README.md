@@ -44,6 +44,13 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 **Specs**
 
+* 1-3
+* 4
+* 5
+* 5-8
+* 9
+* 10
+
 * Follows the rules of Roman numerals
   * A function that sums the number value of each Roman numeral
   * The function needs to know when to add and when to subtract
@@ -65,18 +72,26 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 **Tests**
 
-Describe: romanConversion();
-  Test: "It can return a number"
+Describe: romanConversion(number);
+  1. Test: "It can return the number 1"
   Code:
   const number = 1;
   romanConversion(number);
   Expected Output: 1
 
-  Test: "It can return a number as a Roman numeral"
+  2. Test: "It can return the number 1 as a Roman numeral"
   Code:
   const number = 1;
   romanConversion(number);
   Expected Output: I
+
+  3. Test: "It can return the numbers 1 and 2 to the correct corresponding roman numerals"
+  Code:
+  let number = 2
+  romanConversion(2);
+  Expected output: II
+
+  
 
 
 ## MIT License
