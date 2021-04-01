@@ -87,9 +87,9 @@ Describe: romanConversion(number);
 
   3. Test: "It can return the numbers 1 and 2 to the correct corresponding roman numerals"
   Code:
-  let number = 2
-  romanConversion(2);
-  Expected output: II
+  let number = ["1", "2"]
+  romanConversion(number);
+  Expected output: ["I", "II"]
 
   
 
