@@ -65,19 +65,19 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 **Tests**
 
-Describe: romanConversion = ();
+Describe: romanConversion();
   Test: "It can return a number"
   Code:
   const number = 1;
   romanConversion(number);
   Expected Output: 1
 
-  Test: "It can turn a number into a letter"
+  Test: "It can return a number as a Roman numeral"
   Code:
   const number = 1;
   romanConversion(number);
   Expected Output: I
-  
+
 
 ## MIT License
 
