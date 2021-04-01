@@ -40,9 +40,37 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * _you used in your project_
 * _here_
 
-## Open Source statement
+## Test Driven Development
 
+**Specs**
 
+* Follows the rules of Roman numerals
+  * A function that sums the number value of each Roman numeral
+  * The function needs to know when to add and when to subtract
+  * Separates ones, tens, hundreds, and thousands
+
+* Stores the value of Roman numerals in an array
+* Stores the user's number input into an array
+* Parses input values by thousands, hundreds, tens, and ones
+* Converts these numbers into Roman numerals
+* Displays the Roman numeral on a webpage
+
+<!-- 
+  Roman numeral system: 
+  Highest number: MMM CM XC IX
+ 
+ Our system
+  Highest number: 3,999
+  -->
+
+**Tests**
+
+Describe: romanConversion = ();
+  Test: "It can recognize a number"
+  Code:
+  const number = 1;
+  romanConversion(number);
+  Expected Output: 1
 
 ## MIT License
 
