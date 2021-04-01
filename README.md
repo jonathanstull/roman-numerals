@@ -85,11 +85,10 @@ Describe: romanConversion(number);
   romanConversion(number);
   Expected Output: I
 
-  3. Test: "It can return the numbers 1 and 2 to the correct corresponding roman numerals"
+  3. Test: "It can return the number 2 to the correct Roman numeral"
   Code:
-  let number = ["1", "2"]
   romanConversion(number);
-  Expected output: ["I", "II"]
+  Expected output: II
 
   
 
