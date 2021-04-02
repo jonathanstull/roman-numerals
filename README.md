@@ -20,3 +20,10 @@ Describe: romanize();
   Code:
   romanize(1);
   Expected Output: I
+
+  2. Test: "It can convert the number 1 to Roman numerals from an array"
+  Code:
+  let numbersInput = [1];
+  let numeralKey = ["I"];
+  romanize(numbersInput);
+  Expected Output: I
