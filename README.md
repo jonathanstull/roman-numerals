@@ -27,3 +27,11 @@ Describe: romanize();
   let numeralKey = ["I"];
   romanize(numbersInput);
   Expected Output: I
+
+  3. Test: "It can convert the number 2 to Roman numerals from an array"
+  Code:
+  let numbersInput = [2];
+  let numeralKey = ["I"];
+  let numeral = [];
+  romanize(numbersInput);
+  
